@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+.hex {
+  text-transform: uppercase;
+}
+.btn {
+  padding: 10px 15px;
+  color: black;
+  background-color: #fff;
+  letter-spacing: 1.2px;
+}
+
+.btn:active {
+  scale: 0.9;
+}

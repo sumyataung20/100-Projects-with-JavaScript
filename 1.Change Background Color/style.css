@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #000;
+  background-color: rgb(87, 85, 85);
+  letter-spacing: 1.5px;
+}
+
+.btn:active {
+  scale: 0.8;
+}
