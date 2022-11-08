@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+}
+.box img {
+  display: none;
+}
+
+.box .view {
+  width: 600px;
+  height: 350px;
+
+  border: 10px solid steelblue;
+}
+
+.box .active {
+  display: block;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pre {
+  text-decoration: none;
+  font-size: 25px;
+  background-color: steelblue;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+
+  position: absolute;
+  left: -3%;
+  top: 50%;
+
+  transform: translateY(-50%);
+  transition: all 0.5s;
+}
+
+.next {
+  text-decoration: none;
+  font-size: 25px;
+  background-color: steelblue;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+
+  position: absolute;
+  right: -3%;
+  top: 50%;
+
+  transform: translateY(-50%);
+}
+
+.pre:hover,
+.next:hover {
+  background-color: rgba(96, 139, 175, 0.7);
+}
+
+.active {
+  display: block;
+}
