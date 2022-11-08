@@ -1,0 +1,100 @@
+body {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("./img/wallpaper.jpeg");
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+.test {
+  padding-top: 15px;
+
+  background-color: rgba(164, 191, 215, 0.3);
+  width: 500px;
+  text-align: center;
+  display: none;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.active {
+  display: block;
+}
+
+.img {
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.star {
+  margin: 10px;
+  color: rgb(248, 178, 49);
+  font-size: 20px;
+}
+
+.content > h3 {
+  font-weight: 900;
+  font-size: 30px;
+  color: black;
+  letter-spacing: 4px;
+}
+
+.content > h4 {
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+}
+
+.content > p {
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pre {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  font-weight: 800;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: aliceblue;
+
+  transform: translate(-35%, -50%);
+}
+
+.next {
+  position: absolute;
+  right: 34.5%;
+  top: 50%;
+  font-weight: 800;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: aliceblue;
+
+  transform: translate(-35%, -50%);
+}
+
+.pre:hover,
+.next:hover {
+  background-color: black;
+  color: #fff;
+}
